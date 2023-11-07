@@ -1,4 +1,4 @@
-fetch("https://graph.instagram.com/me/media?fields=media_type%2Cmedia_url%2Ccaption%2Cpermalink&access_token=IGQWRQU2Q3SWZAYd1FaaTZAYRW9jYjF3NXZAWNXdKU19LVEhCQUkyWkpNbE9UZAzRtaGZAVemtnWWw3aldramRUMXFvTDZAUSXVkVUd6S2tpd1N5UjhrQW8yMHAwekRSOUphOXpDUE5mc1NqcUlMXzkyZAUZAvZAndsaHdyWmsZD")
+fetch("https://graph.instagram.com/me/media?fields=media_type%2Cmedia_url%2Ccaption%2Cpermalink&access_token=IGQWROVDV3X0ZA3b2hQbHpEM0NDanN2QnpJZAmZAjbjNtSXQycGNlYUc1OHlsRkZAZAdnFhMGhRODJQVkQtUjRQZAHhraHYxWXdHVjEtM09naTJPX2hoTVM3cHJOSmptbG54X3RPOWY1V0dMUXoxOEVmWXNMUWgxbWQ3S1UZD")
     .then(response => response.json())
     .then(data => {
         console.log(data);
