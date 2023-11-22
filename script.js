@@ -17,7 +17,7 @@ fetch("./data.json")
         img_link.href = main_data[index].permalink;
         img_link.target = "_blank"
         let imageDiv = document.createElement("div");
-        if(main_data[index].media_type == "IMAGE"){
+        if(main_data[index].media_type == "IMAGE"  || main_data[index].media_type == "CAROUSEL_ALBUM"  ){
             imageDiv.classList = " w-full aspect-square bg-white rounded bg-cover bg-center "
             imageDiv.style.backgroundImage = `url('${imgurl}')`;
         }
